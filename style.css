@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: aquamarine;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border:2px solid red;
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  form {
+    margin-top: 20px;
+  }
+  
+  form label, input {
+    display: block;
+    margin-bottom: 30px;
+  }
+  
+  form button[type="submit"] {
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+  
+  form#addStudentForm {
+    display: flex;
+    flex-direction: row;
+    max-width: 50px;
+    margin-bottom: 20px;
+  }
+  
+  form#addStudentForm label {
+    flex-basis: 20%;
+  }
+  
+  form#addStudentForm input[type="text"],
+  form#addStudentForm input[type="number"],
+  form#addStudentForm input[type="email"] {
+    flex-basis: 14%;
+    padding: 8px;
+    font-size: 5px;
+    margin-right: 9px;
+  }
+  
+  form#addStudentForm button[type="submit"] {
+    flex-basis: 20%;
+    padding: 8px 20px;
+    font-size: 13px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 150px;
+    margin-left: 20px;
+    border-radius: 8px;
+  }
+  form#addStudentForm button[type="submit"]:hover {
+    background-color: #014e81;
+  }
+  #search {
+    display: flex;
+    align-items: center;
+  }
+  #search input[type="text"] {
+    flex-grow: 1;
+    margin-right: 200px;
+  }
+  #search button {
+    flex-shrink: 0;
+    margin-right: 200px;
+    margin-left: 10px;
+  }
